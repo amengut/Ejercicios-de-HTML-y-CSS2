@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue; /* Fondo para toda la página */
+}
+
+header h1 {
+	margin-top:10px; /*reduce el margen superior*/
+	font-family: Arial, sans-serif;
+    text-align: center;/*centra el texto*/
+	font-size: 2em; /*aumenta el tamaño del texto*/
+	text-decoration: underline;
+}
+main h2 {
+    margin-top: 0; /* Elimina cualquier margen superior que pueda aplicarse por defecto */
+    background-color: rgb(100, 150, 255); /* azul claro  */
+    padding: 0px 0px; /*margen arriba y abajo*/
+    margin-bottom: 20px; /* Margen inferior de 20px */
+    border-radius: 5px; /* Bordes redondeados de 5px */
+    
+}
+.content {
+    
+	text-align: justify;/*aliena el texto por ambos lados*/
+}
+
+.texto {
+     
+	 text-indent: 40px; /* aplica una sangría a la primera línea de un bloque de texto. */
+}

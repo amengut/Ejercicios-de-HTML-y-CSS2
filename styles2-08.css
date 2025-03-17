@@ -1,0 +1,47 @@
+body {
+    background-color: #b4d4ec; /* Fondo azul claro para toda la página */
+    
+    
+}
+
+header h1 {
+	
+	font-family: 'Ponomar'; /* Cambia la fuente del h1 */
+    text-align: right;/*coloca el texto*/
+	font-size: 3em; /*aumenta el tamaño del texto*/
+	
+}
+h2 {
+    font-family: 'Ponomar'; /* Cambia la fuente del h2 */
+    ;
+    
+}
+
+h2::first-letter {
+    font-size: 1.5em; /* Aumenta el tamaño de la primera letra */
+}
+
+.comic-sans { 
+    font-family: "Comic Sans MS";  /*Aplica comic sans }*/
+    color: red;
+}
+
+.texto {
+    line-height: 1.5; /* Aumenta el espacio entre líneas */
+    text-indent: 40px; /* aplica una sangría a la primera línea de un bloque de texto. */
+    font-family: 'Ponomar'; /* Cambia la fuente del texto */
+    font-size: 1.1em; /* Aumenta el tamaño del texto */
+}
+.fechas{
+    color:rgb(206, 152, 82);
+}
+.nombres{
+    color:chocolate;
+    font-weight: bold;
+}
+.resaltado {
+    background-color: rgb(255, 255, 255); /*Aplica resaltado en blanco*/
+    color: rgb(63, 158, 60);
+    font-style: italic;
+	
+}

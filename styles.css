@@ -1,0 +1,126 @@
+.negrita { 
+	font-weight: bold; /* grosor de la fuente */ 
+}
+.cursiva { 
+	font-style: italic; /* Aplicar cursiva */ 
+}
+
+.subrayado-puntos { 
+	text-decoration: underline;   /*Aplica un subrayado al texto*/
+	text-decoration-style: dotted; /* Aplica un subrayado de puntos */ 
+}
+	
+.resaltado {
+    background-color: yellow; /*Aplica resaltado en amarillo*/
+	
+}
+
+.turquesa {
+	color: turquoise;
+}
+
+.azul { 
+	color: blue; 
+} 
+
+.azul-tachado {
+    color: blue;
+    text-decoration: line-through; /*para texto tachado*/
+    font-size: 35px; /* Tamaño de la letra */
+    position: relative;  /* Alineación vertical */
+	top: 25px /*baja el texto*//*bottom lo sube*/ 
+}
+
+.azul-tachado2 {
+    color: blue;
+    text-decoration: line-through; /*para texto tachado*/
+    font-size: 25px; /* Tamaño de la letra */
+    position: relative;  /* Alineación vertical */
+	top: 20px /*top baja el texto*//*bottom lo sube*/ 
+}
+
+
+.verde-subrayado {
+	color: green;
+	text-decoration: underline; /*para texto subrayado*/
+	position: relative;
+	bottom: 5px;
+}
+.elevar {
+	position: relative;
+	bottom: 15px;
+}
+
+.descender {
+	position: relative;
+	top: 15px;
+}
+	
+
+.morado { 
+	color: #BA55D3; 
+} 
+
+.rojo { 
+	color: red; 
+} 
+
+.naranja { 
+	color: orange; 
+} 
+
+.violeta { 
+	color: violet; 
+}
+
+.verde {
+	color: green;
+}
+
+.preformateado {
+    font-size: 20px; /* Tamaño grande */
+    color: blue;     /* Color azul */
+	line-height: 1.0; /* ajuste de altura*/
+    font-family:  'Georgia', serif;/* estilo de letra */
+    font-weight: bold; /* Grosor de la fuente */
+	
+}
+
+.preformateado1 {
+    font-size: 24px; /* Tamaño grande */
+    color: blue;     /* Color azul */
+	line-height: 0.3; /*ajuste de altura*/
+    font-family: 'Times New Roman', serif; /* estilo de letra */
+    font-weight: bold; /* Grosor de la fuente */
+	vertical-align: baseline;  /* Alinea verticalmente la palabra "pre" top, middle,bottom, baseline, sub, super;*/
+}
+
+.linea-superior {
+    display: inline-block;
+    border-top: 0.5px solid black; /* Línea superior negra */
+    line-height: 0.3; /*altura de la línea*/
+}
+
+.cuadro {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+
+
+
+/*body { 
+font-family: 'Comic Sans MS', cursive, sans-serif;} /*Aplica comic sans al body*/
+
+
+/*.comic-sans { 
+font-family: 'Comic Sans MS', cursive, sans-serif;  Aplica comic sans a una clase especifica}*/
+
+/*h1, h2, p { 
+font-family: 'Comic Sans MS', cursive, sans-serif; Esto aplica comic sans a todos los encabezados h1 h2 y parrafos p }*/

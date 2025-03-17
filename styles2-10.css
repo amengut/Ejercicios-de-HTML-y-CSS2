@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(70, 67, 69); /* Fondo */
+    color: white; /* Color de texto predeterminado */
+}
+
+h1 {
+    text-transform: uppercase; /* Convierte todo a mayúsculas */
+    font-family: "alfa-slab-one", serif; /* Fuente decorativa */
+    text-align: center; /* Centra el texto */
+    letter-spacing: 15px; /* Espaciado entre letras */
+    color: #ffe599; /* Amarillo pastel para mayor contraste */
+    margin: 20px 0; /* Agrega espacio vertical */
+}
+
+.texto1 {
+    text-align: center; /* Centra el texto */
+    line-height: 1.8; /* Separación entre líneas */
+    color: white; /*texto en blanco */
+    font-size: 1.2em; /* Aumenta ligeramente el tamaño */
+}
+
+.texto2 {
+    font-weight: bold; /* Aumenta grosor */
+    font-style: italic; /* Estilo en cursiva */
+    color: #ffe599; /* Amarillo pastel para resaltar */
+}
+
+.texto3 {
+    text-decoration: underline; /* Subraya el texto */
+    font-weight: bold; /* Resalta más el texto subrayado */
+    color: #ff9fdd; /* Rosa claro */
+}
+
+blockquote {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo transparente ligeramente blanco */
+    
+    padding: 20px; /* Agrega espacio interno */
+    margin: 20px auto; /* Centra y separa las citas */
+    font-style: italic; /* Da un estilo de cita clásica */
+    color: #ffe; /* Suaviza el color del texto */
+}
+
+.luckiest-guy {
+    font-family: "luckiest-guy", cursive;
+    text-align: center; /* Texto centrado */
+    color: #ff9fdd; /* rosa claro */
+    font-size: 2.5em; /* Reduce un poco para evitar saturación */
+}
+
+.indie-flower {
+    font-family: "Indie_Flower", cursive;
+    font-size: 3em; /* tamaño */
+    font-weight: 400; /* Grosor regular */
+    color: #ffd700; /* Dorado para resaltar las citas latinas */
+    text-align: center; /* Centra las citas en latín */
+}
+
+@font-face {
+    font-family: 'alfa-slab-one';
+    src: url('fuentes/AlfaSlabOne-Regular.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'Indie_Flower';
+    src: url('fuentes/IndieFlower-Regular.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: "luckiest-guy";
+    src: url("fuentes/LuckiestGuy-Regular.ttf") format("woff2");
+}

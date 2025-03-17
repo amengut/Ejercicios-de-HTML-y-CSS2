@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3; /* Fondo gris para toda la página */
+}
+.container {
+    background-color: #d3d3d3; /* Fondo gris para el contenedor en este caso igual al de la pagina */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section {
+    background-color: #a9a9a9; /* Fondo gris oscuro para cada sección */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.section h2 {
+    margin-top: 0;/*Elimina cualquier margen superior que pueda aplicarse por defecto*/
+}
+
+.section p {
+    margin: 5px 0; /*margen entre secciones 5 superior e inferior y 0 derecha e izquierda*/
+}
+
+.section-blanco-email {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 5px; /*El padding (relleno)*/
+    border-radius: 5px; /*border-radius (radio del borde)*/
+    margin-bottom: 20px;/*margin-bottom (margen inferior)*/
+	text-align: right; /*texto alineado a la derecha*/
+    font-style: italic;
+}
+
+/*.email {
+    text-align: right;
+    font-style: italic;*/

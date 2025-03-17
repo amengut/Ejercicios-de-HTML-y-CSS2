@@ -1,0 +1,73 @@
+
+
+.negrita { 
+	font-weight: bold; /* Esto hace que el texto sea negrita */ 
+}
+.cursiva { 
+	font-style: italic; /* Aplicar cursiva */
+    color: red;	
+}
+
+.subrayado-puntos { 
+	text-decoration: underline;   /*Aplica un subrayado al texto*/
+	text-decoration-style: dotted; /* Aplica un subrayado de puntos */ }
+	
+.resaltado {
+    background-color: yellow;
+}
+
+header h1 {
+	margin-top:-30px; /*reduce el margen superior*/
+	font-family: Arial, sans-serif;
+    text-align: center;/*centra el texto*/
+	font-size: 3em; /*aumenta el tamaño del texto*/
+}
+
+main h2 {
+    margin-top: 0; /* Elimina cualquier margen superior que pueda aplicarse por defecto */
+    background-color: #696969; /* Fondo gris oscuro x2 */
+    padding: 10px 15px; /* Padding de 10px arriba y abajo, y 5px a los lados */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+    border-radius: 5px; /* Bordes redondeados de 5px */
+    color: #ffffff; /* Cambia el color de la fuente a blanco */
+}
+
+.container {
+	
+    background-color: #d3d3d3; /* Fondo gris para el contenedor*/
+    padding: 40px;
+    border-radius: 10px;
+	
+	
+}
+
+.content {
+    overflow: hidden; /* Esto asegura que el contenedor se ajuste al contenido flotante */
+	margin-left: 40px; /* Margen izquierdo de 40 píxeles */
+    margin-right: 40px; /* Margen derecho de 40 píxeles */
+	text-align: justify;/*aliena el texto por ambos lados*/
+}
+
+.content img {
+    float: left; /* Hace que el logo flote a la izquierda */
+    margin-right: 10px; /* Espacio a la derecha del logo */
+}
+
+.texto {
+     /* El texto fluye alrededor del logo */
+	 text-indent: 40px; /* aplica una sangría a la primera línea de un bloque de texto. */
+}
+
+.texto2 {
+     /* El texto fluye alrededor del logo */
+	 text-indent: 70px; /* aplica una sangría a la primera línea de un bloque de texto. */
+	 Padding-left:55px;
+}
+
+figcaption {
+	color: yellow;
+}
+
+.rojo { 
+	color: red; 
+} 

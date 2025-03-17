@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(207, 214, 216); /* Fondo gris para toda la página */
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+	margin-top:10px; /*reduce el margen superior*/
+	font-family: Arial, sans-serif;
+    text-align: center;/*centra el texto*/
+}
+
+main h2 {
+    
+    margin-top: 0; /* Elimina cualquier margen superior que pueda aplicarse por defecto */
+    background-color: rgb(114, 115, 119); /* gris oscuro  */
+    padding: 0px 0px; /*margen arriba y abajo*/
+    margin-bottom: 20px; /* Margen inferior de 20px */
+    color: red;
+    
+}
+
+.texto {
+    
+    background-color: rgba(157, 160, 165, 0.904); /* azul claro  */
+    padding: 5px 5px; /*margen arriba y abajo*/
+    margin-bottom: 20px; /* Margen inferior de 20px */
+    line-height: 1.5; /* Aumenta el espacio entre líneas */
+    
+}
+
+.azul-subrayado {
+	color: rgb(45, 48, 228);
+	text-decoration: underline; /*para texto subrayado*/
+    font-weight: bold; /* Grosor de la fuente */
+}
+
+.verde-subrayado {
+	color: rgb(37, 129, 57);
+	text-decoration: underline; /*para texto subrayado*/
+    font-weight: bold; /* Grosor de la fuente */
+}
+
+.resaltado {
+    background-color: yellow; /*Aplica resaltado en amarillo*/
+	
+}

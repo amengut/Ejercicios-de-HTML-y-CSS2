@@ -1,0 +1,51 @@
+
+
+body {
+    background-color: #eca;
+    
+}
+
+
+blockquote {
+    margin-left: 0; /* Elimina el margen izquierdo */
+    margin-right: 0; /* Elimina el margen derecho */
+}
+
+h1 {
+    text-transform: uppercase;/*convierte el texto en mayúsculas*/
+    font-family: 'Fascinate Inline', cursive;
+    text-align: center;/*centra el texto*/
+    letter-spacing: 30px; /* Espacio entre letras */
+}
+
+.texto1 {
+    text-align: center;/*centra el texto*/
+    line-height: 1.5; /* Aumenta el espacio entre líneas */
+}
+.texto2 { 
+	font-weight: bold; /* grosor de la fuente */
+    font-style: italic; /* Aplicar cursiva */
+    
+}
+.texto3 {
+    
+    text-decoration: underline; /*para texto subrayado*/
+}
+.open-sans {
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+font-style: italic;
+text-align: right;
+color: white;
+font-size: 2.8em;
+}
+
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+
+}
+
+
